@@ -21,9 +21,9 @@
 
 #include <any_config/json/writer.hpp>
 
-#include <tier0/bufferstring.h>
-#include <tier0/keyvalues3.h>
-#include <tier0/utlstring.h>
+#include <tier1/bufferstring.h>
+#include <tier1/keyvalues3.h>
+#include <tier1/utlstring.h>
 
 AnyConfig::CSaveJSON_NoContext::CSaveJSON_NoContext(const CSave_General::Base_t &aInit)
  :  CSaveJSON_NoContext({aInit.m_psMessage, aInit.Output_t<CUtlBuffer *>::m_aData})

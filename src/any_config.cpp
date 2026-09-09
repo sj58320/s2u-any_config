@@ -21,9 +21,9 @@
 
 #include <any_config.hpp>
 
-#include <tier0/bufferstring.h>
+#include <tier1/bufferstring.h>
 #include <tier0/commonmacros.h>
-#include <tier0/utlstring.h>
+#include <tier1/utlstring.h>
 
 AnyConfig::CAnyone::CAnyone()
  :  CConfig()
@@ -102,7 +102,7 @@ bool AnyConfig::CAnyone::Save(const CSaveToFile_General &aParams)
 
 	CBufferStringN<256 + MAX_PATH> sMessage;
 
-	sMessage.AppendConcatN(pszMessageConcat);
+	sMessage.AppendConcat(ARRAYSIZE(pszMessageConcat), pszMessageConcat, nullptr);
 	*aParams.m_psMessage = sMessage;
 
 	return false;
