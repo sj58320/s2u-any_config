@@ -21,9 +21,9 @@
 
 #include <any_config.hpp>
 
-#include <tier1/bufferstring.h>
+#include <tier0/buffer_string.h>
 #include <tier0/commonmacros.h>
-#include <tier1/utlstring.h>
+#include <tier0/utlstring.h>
 
 AnyConfig::CAnyone::CAnyone()
  :  CConfig()

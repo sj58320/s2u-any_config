@@ -21,9 +21,9 @@
 
 #include <any_config/keyvalues/writer.hpp>
 
-#include <tier1/bufferstring.h>
-#include <tier1/keyvalues3.h>
-#include <tier1/utlstring.h>
+#include <tier0/buffer_string.h>
+#include <tier0/keyvalues3.h>
+#include <tier0/utlstring.h>
 
 bool AnyConfig::SaveAsKV1Text_t::SaveAsKV1Text()
 {

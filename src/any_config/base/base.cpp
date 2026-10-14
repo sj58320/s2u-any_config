@@ -21,7 +21,7 @@
 
 #include <any_config/base/config.hpp>
 
-#include <tier1/keyvalues3.h>
+#include <tier0/keyvalues3.h>
 
 KeyValues3 *AnyConfig::CConfig::Get()
 {

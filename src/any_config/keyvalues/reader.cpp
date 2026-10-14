@@ -21,9 +21,9 @@
 
 #include <any_config/keyvalues/reader.hpp>
 
-#include <tier1/keyvalues3.h>
-#include <tier1/utlbuffer.h>
-#include <tier1/strtools.h>
+#include <tier0/keyvalues3.h>
+#include <tier0/utlbuffer.h>
+#include <tier0/tier0_strtools.h>
 
 bool AnyConfig::CLoadFromKV1File::LoadFromKV1File()
 {
