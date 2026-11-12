@@ -34,7 +34,7 @@ bool AnyConfig::SaveAsKV1Text_t::SaveAsKV1Text()
 }
 
 AnyConfig::CSaveAsKV1Text_NoContext::CSaveAsKV1Text_NoContext(const CSave_General::Base_t &aInit)
- :  Base_t({aInit.m_psMessage, aInit.Output_t<CUtlBuffer *>::m_aData, KV1TEXT_ESC_BEHAVIOR_UNK1})
+ :  Base_t({aInit.m_psMessage, aInit.Output_t<CUtlBuffer *>::m_aData, KV1_NO_ESCAPE_SEQUENCES})
 {
 }
 
